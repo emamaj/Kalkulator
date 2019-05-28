@@ -4,12 +4,12 @@ podatekC = 30/100
 
 def obliczPodatek(zarobki):
     if (zarobki < 2000):
-        podatke = podatekA;
+        podatek = podatekA;
     elif (zarobki >= 2000 and zarobki < 5000):
         podatek = podatekB;
     else:
         podatek = podatekC;
-        return podatek * zarobki
+    return podatek * zarobki
 
 zarobki = int(input("podaj wysokosc swoich zarobkow: "))
 wysokoscPodatkow = obliczPodatek(zarobki)
