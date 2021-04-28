@@ -32,6 +32,6 @@ elif (c == '3'):
 elif (c == '4'):
     wynik = dzielenie(a, b)
 else:
-    zlyWybur()
+    zlyWybor()
 
 print("Wynik dzialania to: ", wynik)
