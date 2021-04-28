@@ -16,7 +16,7 @@ def dzielenie(a, b):
     c = a / b
     return c
 
-def zlyWybur():
+def zlyWybor():
     print("Dokonales zlego wyboru!")
     sys.exit()
 
